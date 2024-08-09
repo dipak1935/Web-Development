@@ -1,0 +1,56 @@
+*{
+    margin: 0;padding:0;
+
+  }
+  nav{
+    margin-top: 50px;
+
+  }
+  nav a{
+    
+   font-size:30px;
+    text-decoration: none;
+    margin-left: 40px;
+    
+  }
+
+  header{
+    background-color: blanchedalmond;
+    height: 50px;
+  }
+  
+  .div{
+    height: 100px;width: 100px;
+    background-color: pink;
+    display: inline-block;
+  }
+  #div1{
+    height: 50px;width: 50px;
+    background-color: green;
+    border-radius: 50%;
+    display: block;
+    
+  }
+  #container{
+    border: 3px solid black;
+    margin: 5px;
+    padding: 5px;
+  }
+  #box5{
+    position: fixed;
+    right: 10px;
+
+  }
+  .extra{
+    display: block;
+    height: 100px;width: 100px;
+    background-color: pink;
+    margin: 10px;
+  }
+
+  footer{
+    height: 100px;
+    background-color: orange;
+    
+  }
+  

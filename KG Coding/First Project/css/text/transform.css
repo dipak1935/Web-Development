@@ -1,0 +1,17 @@
+.box{height: 200px;width: 200px;
+    background-color: antiquewhite;
+  }
+  #box1{
+    text-transform: capitalize;
+  }
+  #box2{
+    text-transform: lowercase;
+  }
+  #box3{
+    text-transform: none;
+  }
+  #box4{
+    text-transform: uppercase;
+   
+  }
+   

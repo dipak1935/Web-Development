@@ -1,0 +1,8 @@
+h1{ color: pink;}
+#icon{
+  height: 50px;
+  width: 50px;
+  background-image: url(images/myntra.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}

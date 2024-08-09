@@ -1,0 +1,15 @@
+
+    *{
+      margin: 0;padding: 0;
+
+    }
+    #outer{
+      background-color: lightblue;
+      height: 100px;
+      width: 100px;
+    }
+    #inner{
+      background-color: rgb(235, 218, 133);
+      height: 50%;
+      width: 50%;
+    }

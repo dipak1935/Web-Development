@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+
+        .add{
+            background-color: lightgreen;
+            border: none;
+            padding: 5px 15px;
+            border-radius: 10px;
+        }
+        .wishlist{
+            border: 2.5px solid black;
+            padding: 5px 25px;
+            border-radius: 10px;
+            text-transform: uppercase;
+        }
+        .sale{
+            background-color: lightgreen;
+            border: none;
+            padding: 5px 15px;
+            border-radius: 10px;
+        }
+
+    </style>
+    <title>Practice Set-2</title>
+</head>
+<body>
+
+    <button class="add" onclick="cartQuantity++
+    document.querySelector('#cartSummary').innerText=`Your Bag has ${cartQuantity} items`">Add to Bag</button>
+    <button class="wishlist"
+    onclick="cartQuantity--
+    document.querySelector('#cartSummary').innerText=`Your Bag has ${cartQuantity} items`">move to wishlist</button>
+    <button class="add" 
+    onclick="cartQuantity+=2
+    document.querySelector('#cartSummary').innerText=`Your Bag has ${cartQuantity} items`">Add 1+1 sale item</button>
+    <br>
+
+    <h2 id="cartSummary" >Your Bag has 2 items</h2>
+
+
+    <script>
+
+        let cartQuantity=0;
+
+        document.querySelector('#cartSummary').innerText=`Your Bag has ${cartQuantity} items`
+
+
+
+
+    </script>
+    
+</body>
+</html>

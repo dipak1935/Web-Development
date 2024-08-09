@@ -1,0 +1,22 @@
+.box{height: 200px;width: 200px;
+  background-color: antiquewhite;
+}
+
+  #box1{
+    text-decoration: underline;
+  }
+  #box2{
+    text-decoration: overline;
+    text-decoration-style: double;
+    text-decoration-color: hotpink;
+  }
+  #box3{
+    text-decoration: line-through;
+
+  }
+  #box4{
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color:brown;
+
+  }
