@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Practice Set - 6</title>
+</head>
+<body>
+
+
+
+    <script>
+
+        console.log('hellow');
+
+        let myntraItem={
+            item_name:'jeans',
+            price:999,
+            brand:'levis',
+            discount:'30%',
+            'delivery-time':'2days',
+        }
+
+        let cloth=myntraItem;
+        
+        cloth.item_name='shirt';
+
+        console.log(myntraItem.item_name);
+
+        console.log(myntraItem['delivery-time']);
+
+        
+        let text={
+            message:'good job',
+            status:'complete',
+            
+        }
+
+        console.log(isIdenticalProduct(cloth.brand,myntraItem['brand']));
+
+        function isIdenticalProduct(product1,product2){
+
+            return product1===product2;
+        }
+        
+
+
+    
+
+
+
+    </script>
+    
+    
+</body>
+</html>

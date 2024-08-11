@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Objects</title>
+</head>
+<body>
+    
+
+    <script>
+
+        // let person={
+        //     name:'Pratik Kumar',
+        //     age:19,
+        //     class:12,
+        //     height:5.5,
+        //     'date-of-birth':'18 May'
+        // };
+
+
+        // console.log(person.name);
+        // console.log(person.age);
+        // console.log(person.height);
+
+        // console.log(person);
+        // console.log(typeof(person));
+
+
+        // console.log(person['name']);
+        // console.log(person['class']);
+        // console.log(person['height']);
+
+        // console.log(person['date-of-birth']);
+
+        // delete person.class;
+
+        // console.log(person);
+        
+
+        let product={
+            company_name:'Mango',
+            price:861,
+            'item-name':'T-shirt',
+            
+            displayPrice:function(){
+                console.log(`Price of the product is ₹${product.price}`);
+                console.log(`Price of the product is ₹${this.price}`);
+            },
+            
+
+            rating:{
+                stars:4.5,
+                noOfReviews:110,
+            },
+        }
+
+
+        console.log(product.price);
+        console.log(product['price']);
+
+        product.displayPrice();
+
+
+        console.log(product.rating.stars);
+        console.log(product['rating']['noOfReviews']);
+
+        
+
+    </script>
+</body>
+</html>

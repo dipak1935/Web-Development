@@ -15,52 +15,39 @@
 
             <button class="button" onclick="currentDisplayValue='';
             document.querySelector('#display').value=currentDisplayValue;">C</button>
-            <button class="button" 
-            onclick="currentDisplayValue=currentDisplayValue+'1'
-            document.querySelector('#display').value=currentDisplayValue;";>1</button>
-            <button class="button" onclick="currentDisplayValue=currentDisplayValue+'2'
-            document.querySelector('#display').value=currentDisplayValue;">2</button><br>
+            <button class="button" onclick="onDigitClicked('1')";>1</button>
+            <button class="button" onclick="onDigitClicked('2')">2</button><br>
 
         </div>
 
         <div class="button-container">
 
-            <button class="button" onclick="currentDisplayValue=currentDisplayValue+'+'
-            document.querySelector('#display').value=currentDisplayValue;">+</button>
-            <button class="button" onclick="currentDisplayValue=currentDisplayValue+'3'
-            document.querySelector('#display').value=currentDisplayValue;">3</button>
-            <button class="button" onclick="currentDisplayValue=currentDisplayValue+'4'
-            document.querySelector('#display').value=currentDisplayValue;">4</button><br>
+            <button class="button" onclick="onDigitClicked('+')">+</button>
+            <button class="button" onclick="onDigitClicked('3')">3</button>
+            <button class="button" onclick="onDigitClicked('4')">4</button><br>
 
         </div>
 
         <div class="button-container">
 
-            <button class="button" onclick="currentDisplayValue=currentDisplayValue+'-'
-            document.querySelector('#display').value=currentDisplayValue;">-</button>
-            <button class="button"  onclick="currentDisplayValue=currentDisplayValue+'5'
-            document.querySelector('#display').value=currentDisplayValue;" >5</button>
-            <button class="button"  onclick="currentDisplayValue=currentDisplayValue+'6'
-            document.querySelector('#display').value=currentDisplayValue;">6</button><br>
+            <button class="button" onclick="onDigitClicked('-')">-</button>
+            <button class="button"  onclick="onDigitClicked('5')" >5</button>
+            <button class="button"  onclick="onDigitClicked('6')">6</button><br>
 
         </div>
 
         <div class="button-container">
 
-            <button class="button" onclick="currentDisplayValue=currentDisplayValue+'*'
-            document.querySelector('#display').value=currentDisplayValue;">*</button>
-            <button class="button"  onclick="currentDisplayValue=currentDisplayValue+'7'
-            document.querySelector('#display').value=currentDisplayValue;">7</button>
-            <button class="button"  onclick="currentDisplayValue=currentDisplayValue+'8'
-            document.querySelector('#display').value=currentDisplayValue;">8</button><br>
+            <button class="button" onclick="onDigitClicked('*')">*</button>
+            <button class="button"  onclick="onDigitClicked('7')">7</button>
+            <button class="button"  onclick="onDigitClicked('8')">8</button><br>
 
         </div>
 
 
         <div class="button-container">
 
-            <button class="button" onclick="currentDisplayValue=currentDisplayValue+'/'
-            document.querySelector('#display').value=currentDisplayValue;">/</button>
+            <button class="button" onclick="onDigitClicked('/')">/</button>
 
 
 
@@ -76,17 +63,14 @@
 
 
 
-            <button class="button"  onclick="currentDisplayValue=currentDisplayValue+'9'
-            document.querySelector('#display').value=currentDisplayValue;">9</button><br>
+            <button class="button"  onclick="onDigitClicked('9')">9</button><br>
 
         </div>
 
         <div class="button-container">
 
-            <button class="button" onclick="currentDisplayValue+='0';
-            document.querySelector('#display').value=currentDisplayValue;">0</button>
-            <button class="button" onclick="currentDisplayValue=currentDisplayValue+'.'
-            document.querySelector('#display').value=currentDisplayValue;">.</button>
+            <button class="button" onclick="onDigitClicked('0')">0</button>
+            <button class="button" onclick="onDigitClicked('.')">.</button>
             
 
         </div>
